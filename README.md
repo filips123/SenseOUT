@@ -1,11 +1,11 @@
-![Sense HAT](https://trinket-app-assets.trinket.io/sense-hat.png)
+![Sense HAT](https://user-images.githubusercontent.com/16626308/41469297-f47957ec-70ac-11e8-8c75-29812fb4ada0.png)
 
 SenseOUT
 ========
-Sense HAT’s LED display as Linux FIFO file.
+Sense HATâ€™s LED display as Linux FIFO file.
 
 ## Description
-The project has a Python 3 program that reads data from a Linux FIFO file and prints them to Sense HAT’s LED display.
+The project has a Python 3 program that reads data from a Linux FIFO file and prints them to Sense HATâ€™s LED display.
 Reading from normal file or other device file is also supported.
 
 The project is made just for fun and is shouldn't have any useful value. If you find it, please let me know.
@@ -34,16 +34,16 @@ You could run the program in the background:
 python3 handler.py & # Run the program in the background
 ```
 
-Then you could write data to the file and they will be displayed on Sense HAT’s LED display:
+Then you could write data to the file and they will be displayed on Sense HATâ€™s LED display:
 ```bash
-echo "ABC" > sensehat # Display output only on Sense HAT’s LED display
+echo "ABC" > sensehat # Display output only on Sense HATâ€™s LED display
 # OR #
-echo "ABC" | tee sensehat # Display output on Sense HAT’s LED and in terminal
+echo "ABC" | tee sensehat # Display output on Sense HATâ€™s LED and in terminal
 ```
 
 You could also display commands outputs, but you shouldn't use the commands with a lot of output:
 ```bash
-ls | tee sensehat # Display content of directory on Sense HAT’s LED and in terminal
+ls | tee sensehat # Display content of directory on Sense HATâ€™s LED and in terminal
 ```
 
 ## License
